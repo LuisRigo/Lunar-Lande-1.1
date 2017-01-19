@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>Lunar Lander Luis Rigo </title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" media="screen and (min-width:741px)" href="css/Horizontal.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width:740px)" href="css/Vertical.css">
+	<script type="text/javascript"  src="js/js.js"></script>
+</head>
+
+<body>
+	<div class="menu">
+		<img src="img/menu.png" alt="menu">
+	</div>
+	<img class="suelo" src="img/suelo.png" alt="Suelo">
+	<div class="astronauta">
+		<img src="img/astronauta.png" alt="astronauta">
+	</div>
+	<div id="divnave">
+		<img class="nave" id="naveApagada" src="img/naveApagada.png" alt="naveApagada">
+		<img class="nave" id="naveEncendida" src="img/naveEncendida.png" alt="naveEncendida" style=display:none>
+		<img class="nave" id="explosion" src="img/explosion.png" alt="explosion" style=display:none>
+	</div>
+	<ul id="cpanel">
+		<li class="velocidad">
+			<p class="velocidad1">100</p>
+			<p class="velocidad2">m/s</p>
+		</li>
+		<li class="fuel">
+			<p class="fuel1">100</p>
+			<p class="fuel2"> litros</p>
+		</li>	
+		<li class="altura">
+			<p class="altura1">20</p>
+			<p class="altura2">metros</p>
+		</li>
+	</ul>
+	<ul id="barra">
+		<li id="reanudar"><a class="active" href="#home">PLAY</a></li>
+		<li id="restart"><a href="#restart">RESTART</a></li>
+		<li id="about"><a href="#contact">ABOUT</a></li>
+		<li id="instrucciones"><a href="#about">INSTRUCTIONS</a></li>
+	</ul>
+	<div id="acercade">
+		<h1>ACERCA DE:</h1>
+        <b> Autor: Luis Rigo</b><br>
+		<b>El juego ha sido desarrollado utilizando código javascript, html y css. Como editor de texto se ha utilizado NotePad++.</b><br> 
+		<div id="ocultar">
+			<h3>Ocultar Acerca De</h3>
+				<br>
+		</div>
+	</div>
+	<div id="instruccionestexto">
+			<h1> Instrucciones:</h1>
+			<br>
+			<b> El objetivo del juego es hacer aterrizar la nave a una velocidad mínima para que no explote.</b><br>
+			<br>
+			<b> Pulsando cualquiera tecla, harás accionar el motor de la nave, pero ten cuidado con no quedarte sin gasolina.</b><br>
+			<br>
+			<b> Si consigues aterrizar a una velocidad prudente habrás ganado el juego!</b><br>
+			<br>
+			<b> Pulsando el icono menú, se abrirá un menú desplegable con opciones como Reanudar o Reiniciar, pruébalo!</b><br>
+			<br>
+			<div id="ocultarinstrucciones">
+				<h3>Ocultar Instrucciones</h3>
+				<br>
+			</div>
+	</div>
+	<div id ="felicidades">
+		<h1> HAS GANADO!</h1> <br>
+		<div id="ocultarvictoria">
+		<h3>Ocultar</h3>
+		<br>
+		</div>
+	</div>
+	<div id ="perdido">
+		<h1> HAS PERDIDO!</h1><br>
+		<div id="ocultarderrota">
+				<h3>Ocultar</h3>
+				<br>
+		</div>
+	</div>
+	<div id="pausado">
+		<h1> JUEGO PAUSADO </h1>
+	</div>
+	<div id="aboutvertical">
+		<b> Autor: Luis Rigo</b><br>
+		<b>El juego ha sido desarrollado utilizando código javascript, html y css. Como editor de texto se ha utilizado NotePad++.</b><br>
+	</div>
+</body>
+</html>
